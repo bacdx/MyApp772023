@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="36dp"
+    android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="90dp">
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@color/black"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/massage"
+        android:textSize="16dp"
+        android:paddingVertical="10dp"
+       android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/welcome"
+        android:background="@drawable/background_message"
+        android:layout_marginLeft="20dp"
+        android:padding="2dp"
+        android:minWidth="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></TextView>
+</LinearLayout>
+</LinearLayout>
